@@ -1,20 +1,13 @@
-# Project Title
+# Playground
 
 A Playground repo for Ducks team to test and evaluate code.
 
 ## Table of Contents
 
 - [About](#about)
-- [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Development](#development)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Reference](#reference)
 
 ## About
 
@@ -71,13 +64,13 @@ Commit local change
 git commit -am "Fix typo in header text"
 ```
 
-Create a new branch
+Create a new branch and switch to it
 ```bash
-git -b <branch-name>
+git checkout -b <branch-name>
 ```
 It is suggested to follow the <user_name>/<feature_name> convention in branch name. For example
 ```bash
-git -b peter/motor_controller
+git checkout -b peter/motor_controller
 ```
 
 Push a local branch to the remote repository
